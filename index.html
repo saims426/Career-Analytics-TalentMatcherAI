@@ -3,54 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TalentMatcher AI | Empowering Careers</title>
+    <title>TalentMatcher AI - Entry Page</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f7f9fc;
-            color: #333;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
+            background-color: #1f1f1f;
+            color: #f1f1f1;
             margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #333;
             padding: 20px;
         }
-        h1 {
-            color: #0077b6;
+        header h1 {
+            color: #00bcd4;
+            font-size: 36px;
         }
-        p {
-            font-size: 1.2em;
-            text-align: center;
-            max-width: 700px;
+        .hero-image {
+            width: 100%;
+            max-width: 600px;
+            margin: 30px auto 10px;
         }
-        .button {
-            margin-top: 20px;
-            padding: 12px 24px;
-            font-size: 1em;
-            color: white;
-            background-color: #0077b6;
-            border: none;
+        .intro {
+            margin: 40px;
+            padding: 20px;
+            background-color: #444;
             border-radius: 8px;
-            cursor: pointer;
-            text-decoration: none;
+            max-width: 800px;
+            margin: 50px auto;
         }
-        .button:hover {
-            background-color: #023e8a;
+        .intro p {
+            font-size: 18px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            margin-top: 20px;
+            background-color: #00bcd4;
+            color: #fff;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #008c98;
+        }
+        footer {
+            background-color: #333;
+            padding: 10px;
+            margin-top: 40px;
+        }
+        footer p {
+            color: #aaa;
+            font-size: 14px;
         }
     </style>
 </head>
 <body>
 
-    <h1>Welcome to TalentMatcher AI</h1>
+    <header>
+        <h1>TalentMatcher AI</h1>
+    </header>
 
-    <p>
-        TalentMatcher AI is an AI-powered employability analytics platform designed to transform the way job seekers, recruiters, and businesses navigate the workforce landscape.
-        Click below to explore strategic insights into hiring trends, salary benchmarks, career growth opportunities, and in-demand skills.
-    </p>
+    <img class="hero-image" src="https://undraw.co/api/illustrations/ff16e470-2e5c-4e7d-88a0-cd41ec6c0327" alt="AI Illustration">
 
-    <a href="dashboard.html" class="button">Explore Dashboard Insights</a>
+    <div class="intro">
+        <h2>Welcome to TalentMatcher AI!</h2>
+        <p>TalentMatcher AI is an AI-powered employability analytics platform designed to help job seekers, recruiters, and businesses navigate the job market. Our platform provides actionable insights into hiring trends, salary benchmarks, career progression opportunities, and in-demand skills.</p>
+        <p>Click the button below to explore the full dashboard insights and discover data-driven workforce trends, salary comparisons, and career growth paths.</p>
+        <a href="dashboard.html" class="btn">Explore Dashboard Insights</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 TalentMatcher AI. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
